@@ -19,5 +19,6 @@ set "installDevice=\\?\G:"
 :: grub-install \\?\PhysicalDrive0
 
 
+::boot-directory is not neccessary need to have same drive letter as installDevice
 grub-install.exe --boot-directory=G:\test --target=i386-pc %installDevice%
 pause
