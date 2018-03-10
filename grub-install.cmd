@@ -20,4 +20,4 @@ set "installDevice=\\?\G:"
 
 
 grub-install.exe --boot-directory=G:\test --target=i386-pc %installDevice%
-pausea
+pause
