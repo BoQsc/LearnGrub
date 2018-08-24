@@ -1,9 +1,6 @@
 
 
 ## Filesystems that only installs with blocklists have value of 1.
-To highlight filesystem names RegEx and notepad++ were used.
-* <b>Find</b> fs(\\.+)\.c
-* <b>Replace</b> fs<b>\1</b>.c
 
 The Source Code was obtained through Anonymous clone using git client. https://savannah.gnu.org/git/?group=grub
 * <code>git clone https://git.savannah.gnu.org/git/grub.git</code>
@@ -59,3 +56,7 @@ Search "blocklist_install" (24 hits in 24 files)
   C:\Users\username\Desktop\grub2\grub\grub-core\fs<b>\zfs\zfs</b>.c (1 hit)
 	Line 4361:   .blocklist_install = 0,
 </code></pre>
+
+To highlight filesystem names RegEx and notepad++ were used.
+* <b>Find</b> fs(\\.+)\.c
+* <b>Replace</b> fs<b>\1</b>.c
