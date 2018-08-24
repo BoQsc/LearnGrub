@@ -10,6 +10,24 @@ wever, blocklists are UNRELIABLE and their use is discouraged..
 ```
 
 ## What are blocklists and why they are considered unreliable?
+
+<blockquote>
+<b>13.3 How to specify block lists</b>
+
+
+A block list is used for specifying a file that doesn’t appear in the filesystem, like a chainloader. The syntax is [offset]+length[,[offset]+length]…. Here is an example:
+
+
+0+100,200+1,300+300
+This represents that GRUB should read blocks 0 through 99, block 200, and blocks 300 through 599. If you omit an offset, then GRUB assumes the offset is zero.
+
+
+Like the file name syntax (see File name syntax), if a blocklist does not contain a device name, then GRUB uses GRUB’s root device. So (hd0,2)+1 is the same as +1 when the root device is ‘(hd0,2)’.
+
+</blockquote>
+
+https://www.gnu.org/software/grub/manual/grub/html_node/Block-list-syntax.html#Block-list-syntax
+
 https://askubuntu.com/questions/143418/what-are-blocklists-and-why-are-they-considered-unreliable
 
 ## Filesystems that only installs with blocklists have value of 1.
