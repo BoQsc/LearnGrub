@@ -1,3 +1,5 @@
+grub2 maintainers: https://savannah.gnu.org/project/memberlist.php?detailed=1&group=grub&boxoptionwanted=1#options
+
 grub-install.exe can be downloaded from **grub-2.02~rc2-for-windows.zip** [ftp://alpha.gnu.org/gnu/grub/](url)
 
 ```
