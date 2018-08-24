@@ -57,6 +57,6 @@ Search "blocklist_install" (24 hits in 24 files)
 	Line 4361:   .blocklist_install = 0,
 </code></pre>
 
-To highlight filesystem names RegEx and notepad++ were used.
+To highlight all filesystem names in this markdown document: RegEx and Notepad++ were used.
 * <b>Find</b> fs(\\.+)\.c
 * <b>Replace</b> fs<b>\1</b>.c
