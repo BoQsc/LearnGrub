@@ -1,3 +1,14 @@
+grub-install.exe can be downloaded from **grub-2.02~rc2-for-windows.zip** [ftp://alpha.gnu.org/gnu/grub/](url)
+
+```
+grub-install.exe  --boot-directory="F:\." --target="i386-pc" "\\?\F:" --force
+Installing for i386-pc platform.
+grub-install.exe: warning: File system `fat' doesn't support embedding.
+grub-install.exe: warning: Embedding is not possible.  GRUB can only be installed in this setup by using blocklists.  Ho
+wever, blocklists are UNRELIABLE and their use is discouraged..
+
+```
+
 ## What are blocklists and why they are considered unreliable?
 https://askubuntu.com/questions/143418/what-are-blocklists-and-why-are-they-considered-unreliable
 
