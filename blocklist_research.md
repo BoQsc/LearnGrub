@@ -6,7 +6,7 @@ To highlight filesystem names RegEx and notepad++ were used.
 * <b>Replace</b> fs<b>\1</b>.c
 
 The Source Code was obtained through Anonymous clone using git client. https://savannah.gnu.org/git/?group=grub
-<code>git clone https://git.savannah.gnu.org/git/grub.git</code>
+* <code>git clone https://git.savannah.gnu.org/git/grub.git</code>
 
 <pre><code>
 Search "blocklist_install" (24 hits in 24 files)
