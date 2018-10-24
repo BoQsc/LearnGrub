@@ -1,0 +1,28 @@
+
+Microsoft DiskPart version 10.0.16299.15
+
+Copyright (C) Microsoft Corporation.
+On computer: DESKTOP-HR3KQG2
+
+DISKPART> 
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+  Disk 0    Online          698 GB    90 GB        *
+  Disk 1    Online         7400 MB  1024 KB        *
+
+DISKPART> 
+Leaving DiskPart...
+
+Microsoft DiskPart version 10.0.16299.15
+
+Copyright (C) Microsoft Corporation.
+On computer: DESKTOP-HR3KQG2
+
+DISKPART> 
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+  Disk 0    Online          698 GB    90 GB        *
+  Disk 1    Online         7400 MB  1024 KB        *
+
+DISKPART> 
+Leaving DiskPart...
